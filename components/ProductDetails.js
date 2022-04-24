@@ -1,7 +1,7 @@
 app.component('product-details', {
     props: {
         details: {
-            type: String,
+            type: Array,
             required: true,
         },
         template: 
