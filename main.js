@@ -3,7 +3,6 @@ const app = Vue.createApp({
         return {
             cart: 0,
             premium: false,
-            details: 'Lorem ipsum dolor sit amet',
         }
     },
     methods: {
