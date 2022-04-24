@@ -7,6 +7,7 @@ app.component('product-details', {
         template: 
             /*html*/
             `<div class="product-details">
-            <p>{{ details }}</p>`,
+            <p>{{ details }}</p>
+            </div>`,
     }
 })
