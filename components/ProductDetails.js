@@ -6,8 +6,10 @@ app.component('product-details', {
         },
         template: 
             /*html*/
-            `<div class="product-details">
-            <p>{{ details }}</p>
-            </div>`,
+            `  
+            <ul>
+            <li v-for="detail in details">{{ detail }}</li>
+            </ul>
+            `,
     }
 })
