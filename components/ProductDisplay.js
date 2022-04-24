@@ -19,6 +19,7 @@ app.component('product-display', {
         <p v-else>Out of Stock</p>
 
         <p>Shipping: {{ shipping }}</p>
+        
         <product-details :details="details"></product-details>
 
 
@@ -39,6 +40,7 @@ app.component('product-display', {
         product: 'Socks',
         brand: 'Vue Mastery',
         selectedVariant: 0,
+        details: ['white', 'blue'],
         variants: [
           { id: 2234, color: 'green', image: './assets/images/socks_green.jpg', quantity: 50 },
           { id: 2235, color: 'blue', image: './assets/images/socks_blue.jpg', quantity: 0 },
